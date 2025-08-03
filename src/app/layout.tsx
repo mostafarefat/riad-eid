@@ -12,12 +12,12 @@ const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
 
 export const metadata: Metadata = {
   title: "Riad Eid",
-  description: "برنامج متخصص بنسبة نجاح 95% لتحديد جنس المولود بإشراف فريق طبي متخصص.",
+  description:
+    "برنامج متخصص بنسبة نجاح 95% لتحديد جنس المولود بإشراف فريق طبي متخصص.",
   icons: {
     icon: "/favicon.png",
   },
 };
-
 
 export default function RootLayout({
   children,
@@ -33,4 +33,3 @@ export default function RootLayout({
     </html>
   );
 }
-
